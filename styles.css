@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&display=swap" rel="stylesheet');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+li, a, button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #111111;
+    margin-right: -10px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+nav {
+    background-color: #111111;
+    padding-top: 50px;
+    padding: 50px 70px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    background-color: #111111;
+    padding: 12px 12px;
+    margin: 0 5px;
+}
+
+ul li a {
+    color: white;
+}
+
+.nav_links {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links a:hover {
+    color: pink;
+}
+
+.soc_links {
+    transition: all 0.3s ease 0s;
+}
+
+.soc_links li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.soc_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.soc_links a:hover {
+    color: greenyellow;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: black (0,136,169,1);
+    border:none;
+    border-radius: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: white (0,136,169,0.8);
+}
+
+.box {
+    background-image: url('./images/trees1.jpg');
+    height: 75vh;
+    width: 100vmax;
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+button {
+    background-color: #111111;
+    margin: 50px;
+    padding: 14px 70px;
+    border: none;
+    border-radius: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/*------- 1st row --------- */
+
+.first-row {
+    background-image: url('img/trees1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Lato,
+            Helvetica,
+            sans-serif;
+}
+
+.first-row .first-contents {
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    font-weight: lighter;
+}
+.first-row .first-contents p {
+    font-family: Lato,
+            Helvetica,
+            sans-serif;
+    font-size: 12pt;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+/*------- 2nd row --------- */
+
+.second-row {
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+}
+.second-row h2 {
+    font-family: Lato,
+        Helvetica,
+        sans-serif;
+    font-size: 20pt;
+    font-weight: lighter;
+}
+
+.second-row p {
+    font-family: Lato,
+            Helvetica,
+            sans-serif;
+    font-size: 10pt;
+    font-weight: 100;
+}
+
+/*------- 3rd row --------- */
+
+.third-row {
+    background-color: black;
+    column-count: 2;
+    column-gap: 5%;
+    text-align: justify;
+    font-family: Lato,
+            Helvetica,
+            sans-serif;
+            color: white;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.third-row .column {
+    padding-bottom: 5%;
+}
+
+.third-row .column h2 {
+    font-size: 30px;
+    font-weight: 100;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.third-row .column p {
+    font-style: Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 10pt;
+    font-weight: lighter;
+}
+
+/*------- 4th row --------- */
+.fourth-row {
+   padding: 5% 10% 5% 10%;
+}
+
+.fourth-row .fourth-container {
+    background-color: #dde5e7;
+    padding: 3%;
+    column-count: 2;
+}
+
+.fourth-row .contact-text {
+    float: left;
+    overflow-wrap: normal;
+}
+
+.fourth-row .contact-text h2 {
+    font-family: Lato,
+            Helvetica,
+            sans-serif;
+            font-weight: lighter;
+    font-size: 30px;
+    padding-bottom: 2%;
+}
+
+.fourth-row .contact-text p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8pt;
+    text-align: justify;
+}
+.fourth-row .contact-input {
+    width: 90%;
+    float: right;
+    color: white;
+    background-color: #111111;
+
+}
+.fourth-row .contact-input .contact-form {
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.fourth-row .contact-input .contact-form label {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+}
+.fourth-row .contact-input .contact-form input {
+    width: 100%;
+    display: flex;
+    font-size: 10pt;
+    height: 30px;
+}
+
+.fourth-row .contact-input .contact-form h3 {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Cormorant Upright', serif;
+   
+}
+.fourth-row .contact-input .contact-form .phone {
+    display: flex;
+}
+
+.fourth-row .contact-input .contact-form .phone #code {
+    width: 20%;
+}
+
+.fourth-row .contact-input .contact-form .phone #num {
+    width: 80%;
+
+}
+.fourth-row .contact-input .contact-form button {
+    margin: 10% 0 10% 0;
+}
+
+/*------- FOOTER --------- */
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #111111;
+    margin-right: -10px;
+    height:auto
+}
+
+.right-container p{
+    color: white;
+    font-size: 13px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: right;
+    opacity: 25%;
+
+} 
+
+.left-container p{
+    color: white;
+    text-align: left;
+    font-size: 12px;
+    font-family: Lato, Helvetica, sans-serif;
+    font-weight: lighter;  
+    text-align: right;
+    opacity: 25%;
+}
+
+
+.logo {
+    cursor: pointer;
+}
+
+nav {
+    background-color: #111111;
+    padding-top: 50px;
+    padding: 50px 70px;
+    padding-bottom: 0px;
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    background-color: #111111;
+    padding: 12px 12px;
+    margin: 0 5px;
+}
+
+ul li a {
+    color: white;
+}
+
+.nav_links {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 30px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links a:hover {
+    color: pink;
+}
